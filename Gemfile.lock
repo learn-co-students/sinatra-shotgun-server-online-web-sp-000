@@ -1,6 +1,15 @@
 GEM
   remote: https://rubygems.org/
   specs:
+    actionmailer (2.3.2)
+      actionpack (= 2.3.2)
+    actionpack (2.3.2)
+      activesupport (= 2.3.2)
+    activerecord (2.3.2)
+      activesupport (= 2.3.2)
+    activeresource (2.3.2)
+      activesupport (= 2.3.2)
+    activesupport (2.3.2)
     coderay (1.1.0)
     daemons (1.2.3)
     eventmachine (1.0.8)
@@ -12,6 +21,13 @@ GEM
     rack (1.6.11)
     rack-protection (1.5.5)
       rack
+    rails (2.3.2)
+      actionmailer (= 2.3.2)
+      actionpack (= 2.3.2)
+      activerecord (= 2.3.2)
+      activeresource (= 2.3.2)
+      activesupport (= 2.3.2)
+      rake (>= 0.8.3)
     rake (10.4.2)
     require_all (1.3.3)
     shotgun (0.9.1)
@@ -32,6 +48,7 @@ PLATFORMS
 
 DEPENDENCIES
   pry
+  rails
   rake
   require_all
   shotgun
@@ -39,4 +56,4 @@ DEPENDENCIES
   thin
 
 BUNDLED WITH
-   1.10.6
+   2.1.4
