@@ -3,7 +3,15 @@ require_relative 'config/environment'
 class App < Sinatra::Base
 
   get '/' do 
-    "Welcome to your app!!!! "
+    "Welcom to shotgun!!!! "
+  end
+
+  get '/whatisit' do 
+    "Welcom to halllloooooooo!!!! "
+  end
+
+  get '/:anynumber' do 
+    "Welcom to #{params[:anynumber]} "
   end
 
 end
