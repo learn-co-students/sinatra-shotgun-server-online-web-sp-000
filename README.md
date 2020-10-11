@@ -34,7 +34,7 @@ Now add some more text to the string in the controller action:
 
 ```ruby
   get '/' do 
-    "Welcome to your app!!!! I BUILT THIS!"
+    "Welcome to your app!!!! I BUILT THIS!"r
   end
 ```
 Refresh the page in the browser. You should still see `Welcome to your app!!!!`. That's because Rack isn't aware that we made changes. You can shut down your server by going back to terminal and hitting `ctrl` + `c`. 
