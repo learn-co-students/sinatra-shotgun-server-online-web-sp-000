@@ -3,7 +3,10 @@ require_relative 'config/environment'
 class App < Sinatra::Base
 
   get '/' do 
-    "Welcome to your app!!!! "
+    <<-ABC
+    "Shotgun Server Initiated, starting countdown protocol:\n
+    1. your life funtions will soon cease operation"
+    ABC
   end
 
 end
